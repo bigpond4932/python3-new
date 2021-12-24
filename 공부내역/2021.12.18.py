@@ -2,7 +2,7 @@
 
 
 
-# 근본 문자( int char float(소수점) )  =>자료형
+# 근본 문자( int char float(소수점) ) boolean =>자료형
 # Long, string(char의 집합)  double
 
 
@@ -28,3 +28,6 @@ if True: # True는 boolean 값이다. true 는 1 false 은 0
     if False:
         print(1)
 
+list = 1 , 2 , 3, 4
+print(list)
+print(type(list))
