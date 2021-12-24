@@ -88,14 +88,31 @@
 #if i == 1 list[i] == 10 < min => min = list[i]
 #if i == 2 list[i] == 35 > min => min값은 바뀌지 않음 
 
-for i in range(1,):
-    print((i)*'*')
-    for j in range(0,2):
-        print('*')
+# for i in range(1,):
+#     print((i)*'*')
+#     for j in range(0,2):
+#         print('*')
 
 
-# print(3*'*')
+# # print(3*'*')
 
-N = int(input())
-for i in range(0,N):
-    print(i+1*'*')
+# N = int(input())
+# for i in range(0,N):
+#     print(i+1*'*')
+
+# a = print(50%4)
+# print(type(a))
+
+T = int(input())
+
+list = []
+for i in range(0,T):
+    list.append(input().split())
+    A = int(list[i][0])
+    B = int(list[i][1])
+    print(A+B)
+
+# list = [['1', '1'], ['2', '3'], ['3', '4'], ['9', '8'], ['5', '2']]
+# A = int(list[1][0])
+# B = int(list[1][1]) 
+# print(A)
