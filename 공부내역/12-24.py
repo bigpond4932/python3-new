@@ -96,27 +96,27 @@
 # for 별갯수 in range(1,N+1):
 #     print(별갯수*'*')
 
-별 찍기 -2
-N = int(input())
-for i in range(1,N+1):
-    print((N-i)*' ' + (i*'*'))
+# 별 찍기 -2
+# N = int(input())
+# for i in range(1,N+1):
+#     print((N-i)*' ' + (i*'*'))
 
-# x보다 작은 수
-작은정수=[]
-list = input().split()
-N = int(list[0])
-X = int(list[1])
-A = input().split()
-# print(A)
-for i in range(0, N):
-    if int(A[i]) < X:
-        작은정수.append(int(A[i]))
-print(" ".join(map(str, 작은정수)))
+# # x보다 작은 수
+# 작은정수=[]
+# list = input().split()
+# N = int(list[0])
+# X = int(list[1])
+# A = input().split()
+# # print(A)
+# for i in range(0, N):
+#     if int(A[i]) < X:
+#         작은정수.append(int(A[i]))
+# print(" ".join(map(str, 작은정수)))
 # 리스트 값 출력 시 조작방법.
 
 
 # 10 5
 # 1 10 4 9 2 3 8 5 7 6
-list = [1,2, 3,4]
-print(1,2,3,4)
-print(" ".join(map(str, list)))
+# list = [1,2, 3,4]
+# print(1,2,3,4)
+# print(" ".join(map(str, list)))

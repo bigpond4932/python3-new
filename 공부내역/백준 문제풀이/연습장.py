@@ -103,16 +103,3 @@
 # a = print(50%4)
 # print(type(a))
 
-T = int(input())
-
-list = []
-for i in range(0,T):
-    list.append(input().split())
-    A = int(list[i][0])
-    B = int(list[i][1])
-    print(A+B)
-
-# list = [['1', '1'], ['2', '3'], ['3', '4'], ['9', '8'], ['5', '2']]
-# A = int(list[1][0])
-# B = int(list[1][1]) 
-# print(A)
